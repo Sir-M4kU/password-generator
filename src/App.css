@@ -5,7 +5,7 @@
 
 .generated-password {
   width: fit-content;
-  height: 55px;
+  height: 80px;
   border: 1px solid #0096bfab;
   display: flex;
   justify-content: space-between;
@@ -34,4 +34,8 @@
 .form-pass-generator {
   display: grid;
   place-items: center;
+}
+
+.password {
+  word-break: break-word;
 }

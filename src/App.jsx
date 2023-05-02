@@ -28,7 +28,7 @@ export default function App () {
         {
           password &&
             <>
-              <span>{password}</span>
+              <span className='password'>{password}</span>
               <button onClick={copyPassword}>Copiar</button>
             </>
         }
